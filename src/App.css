@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  display: flex; 
+  min-height: 100%; 
+  justify-content: center;
+  color: white;
+  margin-top: 2px;
+  background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);  
+
+ max-width: 100%;
+}
+div{
+    justify-content: right;
+    
+}
+.continer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+ 
+.auth-form-container {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+
+}
+
+input{
+  padding: 1rem ;
+  margin: 0.5rem 0;
+  border: 0;
+  border-radius: 10px;
+}
+
+button {
+  border: 0;
+  border-radius: 10px;
+  background-color: blue;
+  padding: 20px;
+  cursor: pointer;
+  color: white;
+  margin-top: 2px;
+}
+.btn{
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.btn1{
+  border-radius: 10px;
+  background-color: blue;
+  padding: 20px;
+  color: white;
+}
+
